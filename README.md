@@ -1,111 +1,117 @@
-# ProdTrend -- Amazon Product Scraper Chrome Extension
+# Privacy Policy for ProdTrend
 
-ProdTrend is a Chrome extension designed to scrape Amazon search results
-and product detail pages.\
-It helps in collecting product data for analysis, research, and
-competitive tracking.
+Last Updated: November 29, 2025
 
-------------------------------------------------------------------------
+ProdTrend (“the Extension”) is a Chrome browser extension designed to extract and display publicly available product information from Amazon search pages and product detail pages. This Privacy Policy explains what information the extension accesses, how it is used, and your rights as a user.
 
-## 📌 Features
+---
 
-### ✅ Scrape Search Page
+## 1. Information We Collect
 
-Extracts product metadata such as: - Title\
-- Price\
-- Ratings\
-- Reviews\
-- ASIN\
-- Product link\
-- Image
+ProdTrend does **not** collect, store, transmit, or share any personal or identifiable user data.
 
-### ✅ Scrape Product Detail Page
+The extension does **not** collect:
 
-Captures detailed information including: - Bullet points\
-- Variations (size/color/style)\
-- Technical details\
-- Description\
-- Additional attributes provided by Amazon
+- Names  
+- Contact information  
+- Financial details  
+- Browser history  
+- Clicks, keystrokes, or user behavior
+- Any personal information from your Amazon account  
 
-### ✅ Scrape & Save / Analyze All
+### ✔ The Only Data Accessed
 
-**Scrape & Save** -- Collect and store product details\
-**Analyze All** -- Scrape all visible products in bulk\
-**Un‑Analyze Products** -- Reset previously scraped data
+The extension reads **publicly visible content** from Amazon pages you are currently viewing, such as:
 
-------------------------------------------------------------------------
+- Product titles  
+- ASIN, price, BSR  
+- Ratings & reviews  
+- Images  
+- Variations  
+- Category & product details  
 
-## 🛠 How It Works
+This data:
 
-ProdTrend injects a `content_script` into Amazon pages.\
-It listens for product data, scrapes DOM elements, and stores results in
-a global storage container:
+- Is processed locally on your device  
+- Is never sent to any server  
+- Is never stored outside your browser  
+- Is used only to fulfill the extension’s single purpose  
 
--   `prodtrend_extension_global_storage`
--   Shadow DOM support included
--   jQuery + Bootstrap + Custom JS binding
+---
 
-The extension processes: - Product top section\
-- Variation selectors\
-- Drop-down menus\
-- ShadowRoot-based product sections
+## 2. Local Storage
 
-------------------------------------------------------------------------
+The extension may store small amounts of data locally using Chrome’s storage API, such as:
 
-## 📂 Project Structure
+- Extracted product details  
+- User-selected settings  
+- Recently analyzed items  
 
-    ProdTrend/
-    │
-    ├── manifest.json
-    ├── js/
-    │   ├── content.js
-    │   ├── product_detail.js
-    │   ├── search_page.js
-    │   └── jquery-3.6.3.min.js
-    │
-    ├── css/
-    │   └── bootstrap.min.css
-    │
-    └── icons/
-        ├── 16.png
-        ├── 48.png
-        └── 128.png
+This data:
 
-------------------------------------------------------------------------
+- Stays on your device  
+- Is not shared  
+- Is not used for tracking  
 
-## ⚙️ Installation
+---
 
-1.  Open **chrome://extensions/**\
-2.  Enable **Developer mode**\
-3.  Click **Load Unpacked**\
-4.  Select the extension folder\
-5.  Visit Amazon and start scraping!
+## 3. No External Servers
 
-------------------------------------------------------------------------
+ProdTrend does **not**:
 
-## 🧪 Limitations / Notes
+- Send data to any external server  
+- Use analytics, tracking pixels, or monitoring tools  
+- Communicate with any backend service  
 
--   Amazon UI varies between devices; some selectors may break over
-    time.\
--   Always validate scraped data manually.\
--   Avoid excessive scraping to comply with Amazon policies.
+All processing happens directly in your browser.
 
-------------------------------------------------------------------------
+---
 
-## 📜 License
+## 4. No Selling or Sharing of Data
 
-MIT License
+We do **not** sell, share, transfer, or disclose any user data to third parties.
 
-------------------------------------------------------------------------
+We strictly comply with:
 
-## 🤝 Contributing
+- Chrome Web Store Developer Program Policies  
+- User Data Privacy & Security Requirements  
 
-Pull requests are welcome!\
-For major changes, open an issue to discuss improvements.
+---
 
-------------------------------------------------------------------------
+## 5. Permissions
 
-## 📧 Support
+ProdTrend requests only the minimal permissions required:
 
-For fixes, suggestions, or help integrating this with your workflow,
-feel free to reach out.
+- **activeTab** – to read visible content from the current Amazon page  
+- **Host permissions (specific Amazon domains)** – required to extract product details  
+- **storage** – to save user preferences locally  
+
+ProdTrend does **not** access private, hidden, or authenticated Amazon data.
+
+---
+
+## 6. Third-Party Services
+
+The extension does **not** use:
+
+- Remote code  
+- External script files  
+- CDNs  
+- Third-party embedded scripts  
+
+All code is packaged within the extension in compliance with Chrome Web Store policies.
+
+---
+
+## 7. Children’s Privacy
+
+ProdTrend does not target or collect information from children under 13 years of age.
+
+---
+
+## 8. Changes to This Policy
+
+If changes are made to this privacy policy, the updated version will be published on this same page.
+
+---
+
